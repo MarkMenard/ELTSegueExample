@@ -26,4 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonAPressed:(id)sender {
+    NSLog(@"Button A Pressed");
+}
+
+- (IBAction)buttonBPressed:(id)sender {
+    NSLog(@"Button B Pressed");
+}
+
+- (IBAction)buttonCPressed:(id)sender {
+    NSLog(@"Button C Pressed");
+}
 @end

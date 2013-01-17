@@ -10,4 +10,8 @@
 
 @interface ELTViewController : UIViewController
 
+- (IBAction)buttonAPressed:(id)sender;
+- (IBAction)buttonBPressed:(id)sender;
+- (IBAction)buttonCPressed:(id)sender;
+
 @end
