@@ -7,6 +7,7 @@
 //
 
 #import "ELTViewController.h"
+#import "ELTDetailController.h"
 
 @interface ELTViewController ()
 
@@ -28,6 +29,9 @@
 
 - (IBAction)buttonAPressed:(id)sender {
     NSLog(@"Button A Pressed");
+    ELTDetailController *detailController = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailController"];
+    detailController.message = @"Button A Pressed";
+    [self presentViewController:detailController animated:YES completion:nil];
 }
 
 - (IBAction)buttonBPressed:(id)sender {

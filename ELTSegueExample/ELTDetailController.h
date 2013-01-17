@@ -11,5 +11,6 @@
 @interface ELTDetailController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+@property (strong, nonatomic) NSString *message;
 
 @end

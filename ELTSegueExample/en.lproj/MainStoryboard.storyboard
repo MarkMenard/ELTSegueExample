@@ -69,7 +69,7 @@
         <!--Detail Controller-->
         <scene sceneID="0u9-p0-bA9">
             <objects>
-                <viewController id="lQL-yH-cQH" customClass="ELTDetailController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailController" id="lQL-yH-cQH" customClass="ELTDetailController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C92-Hd-7Na">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
