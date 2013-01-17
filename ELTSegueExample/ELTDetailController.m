@@ -10,4 +10,8 @@
 
 @implementation ELTDetailController
 
+-(void) viewDidLoad {
+    self.messageLabel.text = self.message;
+}
+
 @end
