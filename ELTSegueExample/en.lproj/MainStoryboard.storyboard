@@ -49,6 +49,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonCPressed:" destination="2" eventType="touchUpInside" id="WGd-Ko-04X"/>
+                                    <segue destination="lQL-yH-cQH" kind="modal" identifier="ButtonCPressedSegue" id="1YH-CD-ul5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,6 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="259" y="-6"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="0u9-p0-bA9">
@@ -123,4 +125,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="1YH-CD-ul5"/>
+    </inferredMetricsTieBreakers>
 </document>
