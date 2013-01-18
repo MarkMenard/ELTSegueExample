@@ -36,6 +36,7 @@
 
 - (IBAction)buttonBPressed:(id)sender {
     NSLog(@"Button B Pressed");
+    [self performSegueWithIdentifier:@"ButtonBPressedSegue" sender:self];
 }
 
 - (IBAction)buttonCPressed:(id)sender {

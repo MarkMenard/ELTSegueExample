@@ -62,6 +62,9 @@
                             <constraint firstItem="ldZ-iV-L5Q" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="wWA-vv-GvI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="lQL-yH-cQH" kind="modal" identifier="ButtonBPressedSegue" id="Nbk-ky-K0q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
