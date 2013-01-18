@@ -84,12 +84,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81p-UI-feh">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissButtonPressed" destination="lQL-yH-cQH" eventType="touchUpInside" id="pkM-r0-79L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8P0-dC-RgG" firstAttribute="leading" secondItem="C92-Hd-7Na" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3qc-Y0-Ldn"/>
                             <constraint firstItem="8P0-dC-RgG" firstAttribute="top" secondItem="C92-Hd-7Na" secondAttribute="top" constant="263" id="IxD-nq-ea0"/>
                             <constraint firstAttribute="trailing" secondItem="8P0-dC-RgG" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Nge-iu-BZU"/>
+                            <constraint firstAttribute="bottom" secondItem="81p-UI-feh" secondAttribute="bottom" constant="140" id="iQn-M8-ZwA"/>
+                            <constraint firstItem="81p-UI-feh" firstAttribute="centerX" secondItem="8P0-dC-RgG" secondAttribute="centerX" type="default" id="l5Q-rd-ab8"/>
                         </constraints>
                     </view>
                     <connections>
@@ -105,6 +120,7 @@
         <class className="ELTDetailController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ELTDetailController.h"/>
             <relationships>
+                <relationship kind="action" name="dismissButtonPressed"/>
                 <relationship kind="outlet" name="messageLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

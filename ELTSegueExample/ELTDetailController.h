@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ELTDismissingController.h"
 
 @interface ELTDetailController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 @property (strong, nonatomic) NSString *message;
+@property (weak, nonatomic) id<ELTDismissingController> delegate;
+
+- (IBAction)dismissButtonPressed;
 
 @end

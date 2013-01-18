@@ -14,4 +14,8 @@
     self.messageLabel.text = self.message;
 }
 
+- (IBAction)dismissButtonPressed {
+    [self.delegate dismissPresentedController:self];
+}
+
 @end
