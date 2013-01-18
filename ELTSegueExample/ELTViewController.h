@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ELTDismissingController.h"
 
-@interface ELTViewController : UIViewController
+@interface ELTViewController : UIViewController <ELTDismissingController>
 
 - (IBAction)buttonAPressed:(id)sender;
 - (IBAction)buttonBPressed:(id)sender;

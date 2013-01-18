@@ -52,4 +52,8 @@
     }
 }
 
+-(void) dismissPresentedController:(UIViewController *)presentedController {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

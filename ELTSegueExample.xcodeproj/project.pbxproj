@@ -62,6 +62,7 @@
 		4D7E5F8A16A8526600F40B60 /* ELTSegueExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELTSegueExampleTests.m; sourceTree = "<group>"; };
 		4D7E5F9416A8549F00F40B60 /* ELTDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTDetailController.h; sourceTree = "<group>"; };
 		4D7E5F9516A8549F00F40B60 /* ELTDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTDetailController.m; sourceTree = "<group>"; };
+		4D7E5F9816A8F32500F40B60 /* ELTDismissingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTDismissingController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7E5F7116A8526600F40B60 /* MainStoryboard.storyboard */,
+				4D7E5F9816A8F32500F40B60 /* ELTDismissingController.h */,
 				4D7E5F6816A8526600F40B60 /* ELTAppDelegate.h */,
 				4D7E5F6916A8526600F40B60 /* ELTAppDelegate.m */,
 				4D7E5F9416A8549F00F40B60 /* ELTDetailController.h */,
