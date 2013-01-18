@@ -45,7 +45,11 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     ELTDetailController *detailController = [segue destinationViewController];
-    detailController.message = @"What button was pressed?";
+    if ([segue.identifier isEqualToString:@"ButtonBPressedSegue"]) {
+        detailController.message = @"Button B Pressed";
+    } else if ([segue.identifier isEqualToString:@"ButtonCPressedSegue"]) {
+        detailController.message = @"Button C Pressed";
+    }
 }
 
 @end
