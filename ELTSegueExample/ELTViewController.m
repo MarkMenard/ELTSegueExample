@@ -42,4 +42,10 @@
 - (IBAction)buttonCPressed:(id)sender {
     NSLog(@"Button C Pressed");
 }
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    ELTDetailController *detailController = [segue destinationViewController];
+    detailController.message = @"What button was pressed?";
+}
+
 @end
